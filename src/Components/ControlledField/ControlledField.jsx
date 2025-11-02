@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ControledField = () => {
+const ControlledField = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
@@ -59,4 +59,4 @@ const ControledField = () => {
   );
 };
 
-export default ControledField;
+export default ControlledField;

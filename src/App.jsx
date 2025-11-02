@@ -1,8 +1,11 @@
 import './App.css'
 import FromAction from './Components/FormAction/FromAction'
+import ControlledField from './Components/ControlledField/ControlledField'
 import HookForm from './Components/HookForm.jsx/HookForm'
 import ProductManagement from './Components/Productmanagement/ProductManagement'
 import SimpleForm from './Components/SimpleFrom/SimpleForm'
+import UnControlledField from './Components/UnControlledField/UnControlledField'
+import FamilyTree from './Components/FamilyTree/FamilyTree'
 
 function App() {
   
@@ -14,10 +17,11 @@ function App() {
       
       <SimpleForm></SimpleForm>
       <FromAction></FromAction>
-      <ControledField></ControledField>
-      <UnControledFIeld></UnControledFIeld>
+     <ControlledField></ControlledField>
+      <UnControlledField></UnControlledField>
       <HookForm> </HookForm>
     <ProductManagement></ProductManagement>
+    <FamilyTree></FamilyTree>
 
     </>
   )

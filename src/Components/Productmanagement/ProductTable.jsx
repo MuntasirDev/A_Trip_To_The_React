@@ -1,11 +1,35 @@
-import React from 'react';
+import React from "react";
 
-const ProductTable = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const ProductTable = ({ products }) => {
+  return (
+    <div>
+      <h3>Products: {products.length}</h3>
+
+      <table>
+        <thead>
+  <tr>
+    <th>No.</th>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Actions</th>
+  </tr>
+</thead>
+
+        <tbody>
+          {products.map((product,index) => (
+            <tr key={index+1}>
+              <td>{product.name}</td>
+              <td>{product.price}</td>
+              <td>{product.quantity}</td>
+              <td></td>
+              
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 };
 
 export default ProductTable;

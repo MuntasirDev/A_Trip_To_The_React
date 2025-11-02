@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UnControledFIeld = () => {
+const UnControlledField = () => {
 
 
     const emailRef = React.useRef('');
@@ -28,4 +28,4 @@ const UnControledFIeld = () => {
     );
 };
 
-export default UnControledFIeld;
+export default UnControlledField;
